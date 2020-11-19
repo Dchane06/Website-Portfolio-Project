@@ -1,0 +1,122 @@
+/* Added a background image to the header */
+header {
+  background: url("images/space.jpg");
+}
+
+/* Changed the alignment of the main texts in the header, as well as the font, and the color. */
+h1, h2 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+
+/* Seperated the h1 and h2 elements in the header so I could give them different sizes. */
+header h1 {
+  font-size: 50px;
+}
+
+header h2 {
+  font-size: 40px;
+}
+
+
+/* Changed the alignment of the navigation area, as well as the color. */
+header nav {
+  text-align: right;
+  color: white;
+}
+
+
+/* Set the dimensions and placement of the first picture */
+.pictureofme {
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 5px;
+  height: 350px;
+}
+
+
+/* Changed all paragraph text to white, made it center, and moved it further from the things above it. */
+p {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+/* Added space above and below the hr places. */
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+/* Changed the size, alignment and color of the text in any article, sectioned h2 elements */
+article section h2 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+
+/* Changed the size, color, alignment, decoration, and margin space for the text of any h3 element. */
+h3 {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 50px;
+}
+
+
+/* Changed the margins for the 2nd picture */
+.photo-of-btown {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  height: 350px;
+  width: 60%;
+}
+
+
+/* Changed the alignment, and color of any ul element */
+ul{
+  text-align: center;
+  color: white;
+}
+
+
+/* Changed the alignment and color of any ol element */
+ol{
+  text-align: center;
+  color: white;
+}
+
+
+/* Made an interactive link that appears orange, and when clicked, automatically puts the email into the users email app. */
+  a[href^="mailto:"]{
+      color: orange;
+      text-align: center;
+  }
+
+
+/* Made any a element appear orange, then made it to where when the link is visited, the text will turn red, when hovered over, it will be purple, and when active, it will be yellow. */
+  a{
+    color: orange;
+  }
+
+  a:link {color: orange;}
+  a:visited {color: red;}
+  a:hover {color:aqua;}
+  a:active {color:yellow;}
+
+
+/* Made the background color of the footer black */
+footer {
+  background-color: black;
+}
